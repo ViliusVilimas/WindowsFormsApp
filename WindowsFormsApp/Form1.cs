@@ -10,29 +10,7 @@ using System.Windows.Forms;
 
 class Naudotojas
 {
-    private
-        string vardas;
-        string pass;
-        int RoleID;
-    public
-    string Vardas { get; set; }
-    string Pass { get; set; }
 
-}
-
-class Studentas : Naudotojas
-{
-    private
-        int studentID;
-        string pavarde;
-    public
-        int StudentID { get; set; }
-        string Pavarde { get; set; }
-}
-
-namespace WindowsFormsApp
-
-{
     public partial class Form1 : Form
     {
         string server = "localhost";
@@ -58,7 +36,6 @@ namespace WindowsFormsApp
         {
 
         }
-
         private void label2_Click(object sender, EventArgs e)
         {
 
